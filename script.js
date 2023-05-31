@@ -68,7 +68,6 @@ console.log(sentences);
 //قم بعمل صفحة Html تحتوي على button و p باستخدام js غير قيمة النص عند الضغط على الزر .
 
 const paragraph = document.getElementById("paragraph");
-//const button = document.getElementById("button");
 document.getElementById("button").onclick = () => {
     paragraph.textContent =  "Yes, that's for sure!!!!!!!!!!!";
 };
